@@ -1,3 +1,5 @@
+import java.util.Iterator;
+
 public interface List<T>
 {
 	/**
@@ -54,6 +56,9 @@ public interface List<T>
 	 * @return int - The length of the list
 	 */
 	public int getLength();
+
+	public Iterator<T> iterator();
+
 }
 
 
