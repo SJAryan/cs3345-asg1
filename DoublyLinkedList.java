@@ -68,14 +68,16 @@ public class DoublyLinkedList<T> implements List<T>, Iterable<T> {
 	}
 
 	@Override
-	public void printBackwards() {
-		Node current = tail;
-		while (current != head) {
-			System.out.println(current.data);
-			current = current.previous;	
+	public void printBackwards() {	
+		if (tail == null) {
+			System.out.println("List is empty");
+			return;
 		}
-		System.out.println(current.data);
-		return;
+		Node current = tail;
+		while (current != null) {
+			System.out.println(current.data);
+			current = current.previous; 
+		}
 	}
 
 	@Override

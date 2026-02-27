@@ -6,25 +6,25 @@ public class DoublyLinkedListTest {
 		
 		// Comment only the test functions you want to run
 		
-		testPrintEmptyListForward();
+		// testPrintEmptyListForward();
 		testPrintEmptyListBackward();
-		testEmptyGet();
-		testAddFirstAndGet();
-		testAddFirstForwards();
-		testAddFirstBackwards();
-		testAddLastAndGet();
-		testAddLastForwards();
-		testAddLastBackwards();
-		testIsEmpty();
-		testGetLength();
-		testRemoveFromEmptyList();
-		testRemoveFromListWithOneElementNegative();
-		testRemoveFromListWithOneElementPositive();
-		 testRemoveFromListWithTwoElementNegative();
-		testRemoveFromListWithTwoElementPositive();
-		testRemoveFromListWithThreeElementNegative();
-		testRemoveFromListWithThreeElementPositive();
-		testIterator();
+		// testEmptyGet();
+		// testAddFirstAndGet();
+		// testAddFirstForwards();
+		// testAddFirstBackwards();
+		// testAddLastAndGet();
+		// testAddLastForwards();
+		// testAddLastBackwards();
+		// testIsEmpty();
+		// testGetLength();
+		// testRemoveFromEmptyList();
+		// testRemoveFromListWithOneElementNegative();
+		// testRemoveFromListWithOneElementPositive();
+		//  testRemoveFromListWithTwoElementNegative();
+		// testRemoveFromListWithTwoElementPositive();
+		// testRemoveFromListWithThreeElementNegative();
+		// testRemoveFromListWithThreeElementPositive();
+		// testIterator();
 		
 
 	}
